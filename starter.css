@@ -25,15 +25,15 @@ img {
 
 /* ---------- 2) Core Theme Tokens ----------- */
 :root {
-  --brand: #ff0000;        /* primary colour */
+  --brand: #f997ca;        /* primary colour */
   --brand-2: #f39c12;      /* accent colour */
-  --bg: #ffffff;           /* page background */
-  --head: #0FDE4B;         /* main header colour */
+  --bg: #fae3e3;           /* page background */
+  --head: #ff58e0;         /* main header colour */
   --text: #222222;         /* default text */
   --muted: #666666;        /* secondary text */
   --surface: #f6f8fb;      /* card/section bg */
   --radius: 12px;          /* rounded corners */
-  --shadow: 0 4px 12px rgba(0,0,0,0.08);    /* Subtle shadow for depth */
+  --shadow: 0 4px 12px rgba(69, 41, 41, 0.08);    /* Subtle shadow for depth */
   --spacing: 16px;         /* base spacing unit */
   --maxw: 1100px;          /* content width */
   --font-body: "Inter", system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif;  /* Body font */
@@ -83,7 +83,7 @@ a:hover, a:focus {
 
 /* ---------- 6) Header / Nav ---------------- */
 header {
-  background: linear-gradient(0deg, #0f3460, #1c4c96);  /* Gradient background */
+  background: linear-gradient(0deg, #fbaff2, #ff91d3);  /* Gradient background */
   color: white;                                           /* White text */
   padding: 18px 0;                                          /* Vertical spacing */
   box-shadow: var(--shadow);                                /* Subtle shadow for depth */
@@ -103,7 +103,7 @@ header h1 {
   color: var(--head);                                 /* Special header colour */
 }
 nav {
-  background: #333;             /* Dark grey background for nav bar */
+  background: #eb48a48f;             /* Dark grey background for nav bar */
   font-size: 0.95rem;             /* Slightly smaller font in navigation */
   width: 100%;                    /* Spans full width */
   margin: 32px auto;              /* Space above page content; no top gap */
